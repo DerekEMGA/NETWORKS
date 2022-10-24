@@ -1,2 +1,19 @@
-ipconfig (ver todas las configuraciones 
-establecidas de ip en la maquina)
+
+   > ipconfig                       ... Muestra información.
+
+    > ipconfig /all                  ... Muestra información detallada.
+
+    > ipconfig /renew                ... Renueva todos los adaptadores.
+
+    > ipconfig /renew EL*            ... Renueva cualquier conexión cuyo nombre
+                                         comience con EL.
+
+    > ipconfig /release *Con*        ... Libera todas las conexiones
+                                         coincidentes, por ejemplo:                                              "Conexión cableada Ethernet 1" o
+                                             "Conexión cableada Ethernet 2".
+
+    > ipconfig /allcompartments      ... Muestra información sobre todos
+                                          los compartimientos.
+
+    > ipconfig /allcompartments /all ... Muestra información detallada sobre
+                                         todos los compartimientos
